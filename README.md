@@ -1,6 +1,8 @@
 # Tebel
 A simple textview with custom background to provide additional information.
 
+![Screenshot_20220726_131431](https://user-images.githubusercontent.com/19986771/180936364-c4050723-0123-4969-ac93-96593be4c546.png)
+
 ## Install
 ### Gradle
 Add the dependency below to your module's build.gradle file:
