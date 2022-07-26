@@ -22,11 +22,14 @@ Simply include in your layout:
 ```
 
 ### Properties
-android:text - Text of Tebel
-android:textColor - Color of Tebel text
-textAppearance - Text appearance style of Tebel text
-variant - Predefined variant of Tebel [neutral/warning/error/success]
-radius - Corner radius of Tebel [small/large/round]
+
+| Properties  | Description |
+| ------------- | ------------- |
+| android:text  | Text of Tebel  |
+| android:textColor  | Color of Tebel text  |
+| textAppearance  | Text appearance style of Tebel text  |
+| variant  | Predefined variant of Tebel [neutral,warning,error,success]  |
+| radius  | Corner radius of Tebel [small,large,round]  |
 
 ## License
 ```
