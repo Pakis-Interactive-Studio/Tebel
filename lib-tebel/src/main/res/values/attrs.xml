@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TebelAV">
+        <attr name="android:text" />
+        <attr name="android:textColor" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="textAppearance" format="reference" />
+        <attr name="variant" format="enum">
+            <enum name="neutral" value="0" />
+            <enum name="warning" value="1" />
+            <enum name="error" value="2" />
+            <enum name="success" value="3" />
+        </attr>
+        <attr name="radius" format="enum">
+            <enum name="small" value="0" />
+            <enum name="large" value="1" />
+            <enum name="round" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>

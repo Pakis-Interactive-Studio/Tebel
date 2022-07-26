@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlaygroundActivity">
+
+    <TextView
+        android:id="@+id/tvPredifined"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/spacing2"
+        android:layout_marginTop="@dimen/spacing2"
+        android:text="Predefined Style"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.pakisinteractive.tebel.TebelAV
+        android:id="@+id/tvNeutral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/spacing2"
+        android:layout_marginTop="@dimen/spacing2"
+        android:text="Neutral"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPredifined"
+        app:variant="neutral" />
+
+    <com.pakisinteractive.tebel.TebelAV
+        android:id="@+id/tvWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/spacing2"
+        android:layout_marginTop="@dimen/spacing2"
+        android:text="Warning"
+        app:layout_constraintStart_toEndOf="@+id/tvNeutral"
+        app:layout_constraintTop_toBottomOf="@+id/tvPredifined"
+        app:variant="warning" />
+
+    <com.pakisinteractive.tebel.TebelAV
+        android:id="@+id/tvError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/spacing2"
+        android:layout_marginTop="@dimen/spacing2"
+        android:text="Error"
+        app:layout_constraintStart_toEndOf="@+id/tvWarning"
+        app:layout_constraintTop_toBottomOf="@+id/tvPredifined"
+        app:variant="error" />
+
+    <com.pakisinteractive.tebel.TebelAV
+        android:id="@+id/tvSuccess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/spacing2"
+        android:layout_marginTop="@dimen/spacing2"
+        android:text="Success"
+        app:layout_constraintStart_toEndOf="@+id/tvError"
+        app:layout_constraintTop_toBottomOf="@+id/tvPredifined"
+        app:variant="success" />
+
+    <TextView
+        android:id="@+id/tvCustomColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing2"
+        android:text="Custom Color Style"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNeutral" />
+
+    <com.pakisinteractive.tebel.TebelAV
+        android:id="@+id/tvCustom01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/spacing2"
+        android:layout_marginTop="@dimen/spacing2"
+        android:text="Color 1"
+        android:textColor="@color/white"
+        app:backgroundColor="@color/red70"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCustomColor" />
+
+    <com.pakisinteractive.tebel.TebelAV
+        android:id="@+id/tvCustom02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/spacing2"
+        android:layout_marginTop="@dimen/spacing2"
+        android:text="Color 2"
+        android:textColor="@color/black"
+        app:backgroundColor="@color/yellow70"
+        app:layout_constraintStart_toEndOf="@+id/tvCustom01"
+        app:layout_constraintTop_toBottomOf="@+id/tvCustomColor" />
+
+    <TextView
+        android:id="@+id/tvCustomText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing2"
+        android:text="Custom Text Style"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCustom01" />
+
+    <com.pakisinteractive.tebel.TebelAV
+        android:id="@+id/tvCustom03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/spacing2"
+        android:layout_marginTop="@dimen/spacing2"
+        android:text="Text 1"
+        android:textColor="@color/white"
+        app:backgroundColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCustomText"
+        app:textAppearance="@style/CustomText01" />
+
+    <com.pakisinteractive.tebel.TebelAV
+        android:id="@+id/tvCustom04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/spacing2"
+        android:layout_marginTop="@dimen/spacing2"
+        android:text="Text 2"
+        android:textColor="@color/white"
+        app:backgroundColor="@color/green70"
+        app:layout_constraintStart_toEndOf="@+id/tvCustom03"
+        app:layout_constraintTop_toBottomOf="@+id/tvCustomText"
+        app:textAppearance="@style/CustomText02" />
+
+    <TextView
+        android:id="@+id/tvRadius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing2"
+        android:text="Radius"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCustom03" />
+
+    <com.pakisinteractive.tebel.TebelAV
+        android:id="@+id/tvCustom05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/spacing2"
+        android:layout_marginTop="@dimen/spacing2"
+        android:text="small"
+        android:textColor="@color/white"
+        app:backgroundColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRadius"
+        app:radius="small"
+        app:textAppearance="@style/CustomText01" />
+
+    <com.pakisinteractive.tebel.TebelAV
+        android:id="@+id/tvCustom06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/spacing2"
+        android:layout_marginTop="@dimen/spacing2"
+        android:text="large"
+        android:textColor="@color/white"
+        app:backgroundColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/tvCustom05"
+        app:layout_constraintTop_toBottomOf="@+id/tvRadius"
+        app:radius="large"
+        app:textAppearance="@style/CustomText01" />
+
+    <com.pakisinteractive.tebel.TebelAV
+        android:id="@+id/tvCustom07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/spacing2"
+        android:layout_marginTop="@dimen/spacing2"
+        android:text="round"
+        android:textColor="@color/white"
+        app:backgroundColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/tvCustom06"
+        app:layout_constraintTop_toBottomOf="@+id/tvRadius"
+        app:radius="round"
+        app:textAppearance="@style/CustomText01" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

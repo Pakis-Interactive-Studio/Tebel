@@ -1,0 +1,20 @@
+ext {
+    // Build Tools
+    builds = [
+            minSdk     : 21,
+            compileSdk : 32,
+            targetSdk  : 32,
+            versionCode: 1,
+            versionName: "1.0.0"
+    ]
+
+    versions = [
+            corektx         : '1.7.0',
+            appcompat       : '1.4.2',
+            material        : '1.6.1',
+            junit           : '4.13.2',
+            extjunit        : '1.1.3',
+            espressocore    : '3.4.0',
+            constraintlayout: '2.1.4'
+    ]
+}
