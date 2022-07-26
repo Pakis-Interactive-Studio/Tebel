@@ -1,7 +1,5 @@
-<p align="center">
 # Tebel
 A simple textview with custom background to provide additional information.
-</p>
 
 ## Install
 ### Gradle
