@@ -1,4 +1,9 @@
-# Tebel
+<h1>
+	<p align="center">
+	    Tebel
+	</p>
+</h1>
+
 [![](https://jitpack.io/v/Pakis-Interactive-Studio/Tebel.svg)](https://jitpack.io/#Pakis-Interactive-Studio/Tebel)
 
 A simple textview with custom background to provide additional information.
