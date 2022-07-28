@@ -14,11 +14,11 @@ allprojects {
 		}
 	}
 ```
-Add the dependency
+Add the dependency, you can see the latest releases <a href="https://github.com/Pakis-Interactive-Studio/Tebel/releases">here</a>
 
 ``` Kotlin
 dependencies {
-    implementation "com.github.pakisinteractive:tebel:1.0.0"
+    implementation 'com.github.Pakis-Interactive-Studio:Tebel:[latest_release]'
 }
 ```
 
