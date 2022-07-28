@@ -5,7 +5,17 @@ A simple textview with custom background to provide additional information.
 
 ## Install
 ### Gradle
-Add the dependency below to your module's build.gradle file:
+Add JitPack repository below to your module's build.gradle file:
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Add the dependency
+
 ``` Kotlin
 dependencies {
     implementation "com.github.pakisinteractive:tebel:1.0.0"
