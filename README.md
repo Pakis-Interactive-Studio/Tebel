@@ -8,11 +8,11 @@ A simple textview with custom background to provide additional information.
 Add JitPack repository below to your module's build.gradle file:
 ```
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
 ```
 Add the dependency, you can see the latest releases <a href="https://github.com/Pakis-Interactive-Studio/Tebel/releases">here</a>
 
