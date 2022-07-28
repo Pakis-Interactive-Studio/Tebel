@@ -13,5 +13,8 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Tebel"
-include ':app-playground'
+// skip build on jitpack and exclude deprecated module
+if (!System.env.JITPACK) {
+    include ':app-playground'
+}
 include ':lib-tebel'
