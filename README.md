@@ -52,7 +52,12 @@ Simply include in your layout:
 | radius  | Corner radius of Tebel [small,large,round]  |
 
 ## Find this library useful? 
-Star :star: this project or follow our github <a href="https://github.com/Pakis-Interactive-Studio" target="blank">![GitHub followers](https://img.shields.io/github/followers/Pakis-Interactive-Studio?style=social)</a> or [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K0E2QMQ) <a href="https://trakteer.id/pakis-interactive-bn1xg" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-5.png" height="30" style="border: 0px; height: 30px;" alt="Trakteer Saya"></a>
+Star :star: this project or follow our github <a href="https://github.com/Pakis-Interactive-Studio" target="blank">![GitHub followers](https://img.shields.io/github/followers/Pakis-Interactive-Studio?style=social)</a> it motivates us to share more open source
+
+## Donation 
+If this project help you reduce time to develop, you can give us a cup of coffee ☕
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K0E2QMQ) <a href="https://trakteer.id/pakis-interactive-bn1xg" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-5.png" height="30" style="border: 0px; height: 30px;" alt="Trakteer Saya"></a>
 
 ## License
 ```
