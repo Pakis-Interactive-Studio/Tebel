@@ -52,7 +52,7 @@ Simply include in your layout:
 | radius  | Corner radius of Tebel [small,large,round]  |
 
 ## Find this library useful? 
-Star :star: this project or follow our github <a href="https://github.com/Pakis-Interactive-Studio" target="blank">![GitHub followers](https://img.shields.io/github/followers/Pakis-Interactive-Studio?style=social)</a>  
+Star :star: this project or follow our github <a href="https://github.com/Pakis-Interactive-Studio" target="blank">![GitHub followers](https://img.shields.io/github/followers/Pakis-Interactive-Studio?style=social)</a> or [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K0E2QMQ)
 
 ## License
 ```
