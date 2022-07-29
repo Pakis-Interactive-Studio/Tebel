@@ -1,10 +1,11 @@
 <h1>
 	<p align="center">
-	    Tebel
+	    :bricks: Tebel
 	</p>
 </h1>
 
 [![](https://jitpack.io/v/Pakis-Interactive-Studio/Tebel.svg)](https://jitpack.io/#Pakis-Interactive-Studio/Tebel)
+<a href="https://opensource.org/licenses/Apache-2.0"><img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"/></a>
 
 A simple textview with custom background to provide additional information.
 
@@ -49,6 +50,9 @@ Simply include in your layout:
 | textAppearance  | Text appearance style of Tebel text  |
 | variant  | Predefined variant of Tebel [neutral,warning,error,success]  |
 | radius  | Corner radius of Tebel [small,large,round]  |
+
+## Find this library useful? 
+Star :star: this project  or share this project to the others 
 
 ## License
 ```
