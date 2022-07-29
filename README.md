@@ -56,7 +56,7 @@ Please fork this repository and contribute back using pull requests.
 Any contributions, large or small, major features, bug fixes, are welcomed and appreciated 
 
 ## Find this library useful? 
-Star :star: this project or follow our github <a href="https://github.com/Pakis-Interactive-Studio" target="blank">![GitHub followers](https://img.shields.io/github/followers/Pakis-Interactive-Studio?style=social)</a> it motivates us to share more open source
+Star :star: this project or follow our github <a href="https://github.com/Pakis-Interactive-Studio" target="blank">![GitHub followers](https://img.shields.io/github/followers/Pakis-Interactive-Studio?style=social)</a> it motivates us to share more open source project
 
 ## Donation 
 If this project help you reduce time to develop, you can give us a cup of coffee ☕
