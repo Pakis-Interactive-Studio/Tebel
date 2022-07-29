@@ -51,6 +51,10 @@ Simply include in your layout:
 | variant  | Predefined variant of Tebel [neutral,warning,error,success]  |
 | radius  | Corner radius of Tebel [small,large,round]  |
 
+## Contributing 
+Please fork this repository and contribute back using pull requests.
+Any contributions, large or small, major features, bug fixes, are welcomed and appreciated 
+
 ## Find this library useful? 
 Star :star: this project or follow our github <a href="https://github.com/Pakis-Interactive-Studio" target="blank">![GitHub followers](https://img.shields.io/github/followers/Pakis-Interactive-Studio?style=social)</a> it motivates us to share more open source
 
